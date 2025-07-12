@@ -11,7 +11,5 @@ export const getAnalytics = async () => {
 
   const { analytics } = await response.json();
 
-  console.log(analytics);
-
   return analytics as Analytics;
 };
