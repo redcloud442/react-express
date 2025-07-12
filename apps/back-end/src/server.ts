@@ -13,7 +13,7 @@ app.use(routeHandler);
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin: "https://hormozi-landing.netlify.app",
   }),
 );
 
