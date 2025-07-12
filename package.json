@@ -1,0 +1,22 @@
+{
+  "name": "monorepo-react-express",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "turbo run dev",
+    "build": "pnpm --filter front-end build"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.12.1",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "turbo": "^2.5.4"
+  }
+}
