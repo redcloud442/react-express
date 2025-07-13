@@ -1,5 +1,5 @@
-import { trackPageVisitController } from "@/controller/tracking/tracking-controller";
 import { Router } from "express";
+import { trackPageVisitController } from "../../controller/tracking/tracking-controller";
 
 const tracking = Router();
 
