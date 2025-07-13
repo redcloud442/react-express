@@ -14,6 +14,7 @@ app.use(routeHandler);
 app.use(
   cors({
     origin: "https://hormozi-landing.netlify.app",
+    methods: ["GET", "POST", "PUT"],
   }),
 );
 
