@@ -77,7 +77,7 @@ const HeroSection = () => {
             onClick={handleRedirectToContactUs}
             className="bg-gradient-to-r from-violet-600 to-indigo-600 text-white px-6 py-3 rounded-full shadow-lg hover:brightness-110 transition"
           >
-            Contact Us
+            Get the Complete System Now
           </motion.button>
         </div>
 
