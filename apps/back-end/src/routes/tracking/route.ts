@@ -1,8 +1,8 @@
+import { trackPageVisitController } from "@/controller/tracking/tracking-controller";
 import { Router } from "express";
-import { trackPageVisit } from "../../handler/tracking/tracking-handler";
 
 const tracking = Router();
 
-tracking.put("/", trackPageVisit);
+tracking.put("/", trackPageVisitController);
 
 export default tracking;
